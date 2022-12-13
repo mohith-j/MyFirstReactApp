@@ -21,7 +21,7 @@ const venueInfo = () => {
                     }}
                   ></div>
                   <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc">Dec 20 @01:20:00pm</div>
+                  <div className="vn_desc">March 23, 2023 @1900 HRS</div>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const venueInfo = () => {
                     }}
                   ></div>
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc">375 Deer Oak, Oakland, CA 9835</div>
+                  <div className="vn_desc">1 Cardinals Dr, Glendale, AZ 85305</div>
                 </div>
               </div>
             </div>
