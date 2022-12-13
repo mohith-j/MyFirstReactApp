@@ -4,12 +4,12 @@ import { Zoom } from "react-awesome-reveal";
 
 const Princing = () => {
     const priceState = {
-        prices:[100,150,200],
+        prices:[300,600,1000],
         position:['Balcony','Medium','Star'],
         desc:[
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uts',
-            'Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea',
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+            'Economy Class. Recliner Seats. Complimentary Water Bottle.',
+            'Comfortable Boxes, with complimentary food and live telecast of the concert',
+            'Right beside the stage. Chance to see TS close. Complimentary food and merchs. Printed Concert Tickets'
         ],
         linkto:['https://www.taylorswift.com/events/','https://www.taylorswift.com/events/','https://www.taylorswift.com/events/'],
         delay:[500,0,500]   

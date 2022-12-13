@@ -1,33 +1,44 @@
 import React from "react";
-import './resources/styles.css';
+import "./resources/styles.css";
 
+import { Element } from "react-scroll";
 
-import Header from './components/header_footer/Header';
+import Header from "./components/header_footer/Header";
 import Footer from "./components/header_footer/Footer";
 import Featured from "./components/featured";
 import VenueInfo from "./components/venueInfo";
 import Highlights from "./components/highlights";
 import Princing from "./components/pricing";
+import Location from "./components/location";
 
-const App=()=> {
+const App = () => {
   return (
     <div className="App">
-      <Header/>
+      <Header />
 
-      <Featured/>
+      <Element name="featured">
+        <Featured />
+      </Element>
 
-      <VenueInfo/>
-      
-      <Highlights/>
+      <Element name="venueinfo">
+        <VenueInfo />
+      </Element>
 
-      <Princing/>
-      <div style={{backgroundColor:'violet', height: '800px'}}></div>
-      <div style={{backgroundColor:'yellow', height: '800px'}}></div>
-      <div style={{backgroundColor:'orange', height: '800px'}}></div>
-      <div style={{backgroundColor:'pink', height: '800px'}}></div>
-      <Footer/>
+      <Element name="highlight">
+        <Highlights />
+      </Element>
+
+      <Element name="pricing">
+        <Princing />
+      </Element>
+
+      <Element name="location">
+        <Location />
+      </Element>
+
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
